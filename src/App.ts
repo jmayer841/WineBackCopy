@@ -12,6 +12,7 @@ app.use(fileUpload({
   useTempFiles : true,
   tempFileDir : './temporalImg/'
 }))
+
 app.use(cors({
   origin: "*",
 }))
